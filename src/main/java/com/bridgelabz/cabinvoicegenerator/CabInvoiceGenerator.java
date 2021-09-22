@@ -17,5 +17,8 @@ public class CabInvoiceGenerator {
         }
         return totalFare;
     }
+    public InvoiceSummary returnRideSummary(Ride[] rides) {
 
+        return null;
+    }
 }
