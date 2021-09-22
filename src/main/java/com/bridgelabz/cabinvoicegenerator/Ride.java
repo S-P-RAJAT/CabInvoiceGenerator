@@ -11,6 +11,7 @@ public class Ride {
         this.time = time;
         this.rideType = RideType.NORMAL;
     }
+
     public Ride(double distance, int time, RideType rideType) {
         this.distance = distance;
         this.time = time;

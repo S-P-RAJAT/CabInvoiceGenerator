@@ -1,7 +1,7 @@
 package com.bridgelabz.cabinvoicegenerator;
 
 public enum RideType {
-    NORMAL(10.0,1,5.0), PREMIUM(15.0,2,20.0);
+    NORMAL(10.0, 1, 5.0), PREMIUM(15.0, 2, 20.0);
 
     private final double costPerKm;
     private final int costPerMinute;
