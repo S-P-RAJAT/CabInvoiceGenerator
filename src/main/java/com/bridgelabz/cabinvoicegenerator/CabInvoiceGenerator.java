@@ -18,7 +18,8 @@ public class CabInvoiceGenerator {
         return totalFare;
     }
     public InvoiceSummary returnRideSummary(Ride[] rides) {
-
-        return null;
+        double totalFare = calculateFare(rides);
+        int numberOfRides = rides.length;
+        return new InvoiceSummary(numberOfRides, totalFare);
     }
 }
